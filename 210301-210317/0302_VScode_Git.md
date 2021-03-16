@@ -66,20 +66,20 @@ git push origin '브랜치명'
 ```
 입력한 브랜치로 깃이 업로드 된다. origin은 리모트 명이다. origin으로 대게 사용하기는 하지만, 리모트명이 다르다면 해당하는 리모트명을 작성해야 Push가 제대로 이루어진다.
 
-****3) 깃 Pull****
+**3) 깃 Pull**
 ```
 git pull orgin '브랜치명'
 ```
 해당하는 위치의 깃이 내 로컬파일에 다운로드 된다.
 
-****4) Error****
+**4) Error**
 
-********\- Push 관련 이슈********
+- Push 관련 이슈
 
 >   시간상 발생한 모든 에러를 정리할 수 없어서 대표적인 것 둘만 뽑아보았다. 두개 다 에러를 무시하고 '강제로' push해오거나 pull을 해오는 방법이다. 환경적 여유가 된다면 깃의 원리를 익히고, 좀 더 근본적으로 에러를 해결할 수 있겠다.  
 >   소개한 것 이외에도 너무 다양한 에러 (혹은 마음처럼 동작안함)이 발생했다.  
-    >>1.  Push가 잘 되던 Local Clone이 다른 팀원 Push 후에 Push가 안되기도 하였다. 한참 삽질하다가 결국 git reset하고 처음부터 경로를 설정했다.  
-    >>2.  remote와 repository 경로를 잃어버려 한참 헤멨다. 같은 맥락에서 main branch에 업로드 하고 싶은데 master branch에만 계속 업로드가 되었다.  
-    >>3.  Branch라는 개념에서 파생되어 Merge, Rebase 기능들이 있는데 이 역시 잘 사용하지 않으면 에러 발생 가능성이 높다. Rebase 같은 경우 사용하면 내 Local Clone이 Rebase 상태에 머물러 있게 되는데, 이 때 Pull이 진행되지 않았다.   git rebase --abort 하면 Rebase 상태 강제종료가 가능하다.  
-    >>4.  Pull 해올 때 venv 파일까지 건드려지지 않도록 항상 조심하자. 다른 팀원의 venv 파일을 pull한 후 클라이언트와 서버가 연결되지 않아서 애먹었다. 결국 pull을 취소하고 이전 내 커밋으로 돌아가고나서야 작동이 되었다. 현재 프로젝트 깃 레포지토리에 venv 파일이 올라가 있는데 원래는 venv파일은 뺴고 업로드를 하는 건지 알아봐야겠다.  
-    >>5.  그래서 주말에 공부할 것들은 다음과 같다. 1) Git Commit, Pull, Push 개념 정리, 2) Git Remote, Branch 개념 정리, 3) Git Merge, Rebase 기능들 개념 정리, 4) 다른 사람들이 올려놓은 Repository 구경하기  
+>>1.  Push가 잘 되던 Local Clone이 다른 팀원 Push 후에 Push가 안되기도 하였다. 한참 삽질하다가 결국 git reset하고 처음부터 경로를 설정했다.  
+>>2.  remote와 repository 경로를 잃어버려 한참 헤멨다. 같은 맥락에서 main branch에 업로드 하고 싶은데 master branch에만 계속 업로드가 되었다.  
+>>3.  Branch라는 개념에서 파생되어 Merge, Rebase 기능들이 있는데 이 역시 잘 사용하지 않으면 에러 발생 가능성이 높다. Rebase 같은 경우 사용하면 내 Local Clone이 Rebase 상태에 머물러 있게 되는데, 이 때 Pull이 진행되지 않았다.   git rebase --abort 하면 Rebase 상태 강제종료가 가능하다.  
+>>4.  Pull 해올 때 venv 파일까지 건드려지지 않도록 항상 조심하자. 다른 팀원의 venv 파일을 pull한 후 클라이언트와 서버가 연결되지 않아서 애먹었다. 결국 pull을 취소하고 이전 내 커밋으로 돌아가고나서야 작동이 되었다. 현재 프로젝트 깃 레포지토리에 venv 파일이 올라가 있는데 원래는 venv파일은 뺴고 업로드를 하는 건지 알아봐야겠다.  
+>>5.  그래서 주말에 공부할 것들은 다음과 같다. 1) Git Commit, Pull, Push 개념 정리, 2) Git Remote, Branch 개념 정리, 3) Git Merge, Rebase 기능들 개념 정리, 4) 다른 사람들이 올려놓은 Repository 구경하기  
