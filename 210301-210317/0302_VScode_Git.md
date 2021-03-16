@@ -50,7 +50,7 @@ source venv/Scripts/activate
 ---
 
 
-#### **2. Git Commit, Push and Pull**
+### **2. Git Commit, Push and Pull**
 
 **1) 깃 커밋**
 ```
