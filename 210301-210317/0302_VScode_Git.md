@@ -13,9 +13,9 @@
 
 ### **1. PyCharm에서 Visual Studio로의 전환**
 
-[Visual Studio Code 파이썬(Python) 가상개발환경(venv) 셋팅](https://mr-spock.tistory.com/19)
+>[Visual Studio Code 파이썬(Python) 가상개발환경(venv) 셋팅](https://mr-spock.tistory.com/19)
 
-[Flask로 웹 페이지 제작하기 - 1 기초적인 설정과 사용법, Visual Studio Code와 Flask 설치법](https://hobbylists.tistory.com/entry/Flask-Flask%EB%A1%9C-%EC%9B%B9-%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%A0%9C%EC%9E%91%ED%95%98%EA%B8%B0-1-%EA%B8%B0%EC%B4%88%EC%A0%81%EC%9D%B8-%EC%84%A4%EC%A0%95%EA%B3%BC-%EC%82%AC%EC%9A%A9%EB%B2%95-Visual-Studio-Code%EC%99%80-Flask-%EC%84%A4%EC%B9%98%EB%B2%95-%EA%B0%9C%EC%9D%B8%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8)
+>[Flask로 웹 페이지 제작하기 - 1 기초적인 설정과 사용법, Visual Studio Code와 Flask 설치법](https://hobbylists.tistory.com/entry/Flask-Flask%EB%A1%9C-%EC%9B%B9-%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%A0%9C%EC%9E%91%ED%95%98%EA%B8%B0-1-%EA%B8%B0%EC%B4%88%EC%A0%81%EC%9D%B8-%EC%84%A4%EC%A0%95%EA%B3%BC-%EC%82%AC%EC%9A%A9%EB%B2%95-Visual-Studio-Code%EC%99%80-Flask-%EC%84%A4%EC%B9%98%EB%B2%95-%EA%B0%9C%EC%9D%B8%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8)
 
 -   PyCharm에서 Virtual Studio로 넘어오면서 Flask부터 세팅을 다시 해야 했다. 위의 두 블로그를 참고하여 진행하였는데 많은 도움이 되었다.  
 
@@ -23,7 +23,7 @@
 
 -   라이브러리를 설치하다 보면 자주 발생하는 error 중 하나가 pip를 최신 버전으로 업그레이드 하지 않아서 생기는 문제이다. 에러 메세지를 읽고 pip upgrade 관련 문제가 발생한다면 다음 링크를 참조하자.    
 
-[Python 패키지 pip 업그레이드, upgrade 방법](https://webisfree.com/2017-08-10/python-%ED%8C%A8%ED%82%A4%EC%A7%80-pip-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C-upgrade-%EB%B0%A9%EB%B2%95)
+>[Python 패키지 pip 업그레이드, upgrade 방법](https://webisfree.com/2017-08-10/python-%ED%8C%A8%ED%82%A4%EC%A7%80-pip-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C-upgrade-%EB%B0%A9%EB%B2%95)
 
 ---
 
@@ -45,13 +45,14 @@ source venv/Scripts/activate
 
 내 컴퓨터는 python 안먹히고 py 로 사용해야 작동한다.  
 
-이 글을 보시는 분들은 py 안되면 python으로 시도해보시길 바란다.  
+이 글을 보시는 분들은 py 안되면 python으로 시도해보시길 바란다.
+
 ---
 
 
 #### **2. Git Commit, Push and Pull**
 
-**1\. 깃 커밋**
+**1) 깃 커밋**
 ```
 git add .
 
@@ -59,25 +60,24 @@ git commit -m ' 커밋명'
 ```
 이렇게 치면 커밋 완료! Push 전에 Commit을 먼저 해야 한다
 
-**2\. 깃 Push**
+**2) 깃 Push**
 ```
 git push origin '브랜치명'
 ```
 입력한 브랜치로 깃이 업로드 된다. origin은 리모트 명이다. origin으로 대게 사용하기는 하지만, 리모트명이 다르다면 해당하는 리모트명을 작성해야 Push가 제대로 이루어진다.
 
-****3\. 깃 Pull****
+****3) 깃 Pull****
 ```
 git pull orgin '브랜치명'
 ```
 해당하는 위치의 깃이 내 로컬파일에 다운로드 된다.
 
-****4\. Error****
+****4) Error****
 
 ********\- Push 관련 이슈********
 
 >   시간상 발생한 모든 에러를 정리할 수 없어서 대표적인 것 둘만 뽑아보았다. 두개 다 에러를 무시하고 '강제로' push해오거나 pull을 해오는 방법이다. 환경적 여유가 된다면 깃의 원리를 익히고, 좀 더 근본적으로 에러를 해결할 수 있겠다.  
 >   소개한 것 이외에도 너무 다양한 에러 (혹은 마음처럼 동작안함)이 발생했다.  
-
     >>1.  Push가 잘 되던 Local Clone이 다른 팀원 Push 후에 Push가 안되기도 하였다. 한참 삽질하다가 결국 git reset하고 처음부터 경로를 설정했다.  
     >>2.  remote와 repository 경로를 잃어버려 한참 헤멨다. 같은 맥락에서 main branch에 업로드 하고 싶은데 master branch에만 계속 업로드가 되었다.  
     >>3.  Branch라는 개념에서 파생되어 Merge, Rebase 기능들이 있는데 이 역시 잘 사용하지 않으면 에러 발생 가능성이 높다. Rebase 같은 경우 사용하면 내 Local Clone이 Rebase 상태에 머물러 있게 되는데, 이 때 Pull이 진행되지 않았다.   git rebase --abort 하면 Rebase 상태 강제종료가 가능하다.  
