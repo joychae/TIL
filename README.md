@@ -7,11 +7,11 @@ Today I Learned (TIL)
 
 알고리즘
 ---
-- [0](https://github.com/joychae/TIL/blob/main/210301-210317/0305_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%B0%9C%ED%91%9C_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%8B%9C%EC%9E%91.md)
+- [0화](https://github.com/joychae/TIL/blob/main/210301-210317/0305_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%B0%9C%ED%91%9C_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%8B%9C%EC%9E%91.md)
 
-- [1](https://github.com/joychae/TIL/blob/main/210308_210314/0308_%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EA%B0%9C%EB%85%90.md)
+- [1화. 우리는 왜 알고리즘을 공부하는가? - 자료구조, 알고리즘, 프로그래밍 언어](https://github.com/joychae/TIL/blob/main/210308_210314/0308_%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EA%B0%9C%EB%85%90.md)
 
-- [2](https://github.com/joychae/TIL/blob/main/210308_210314/0309_%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EA%B0%9C%EB%85%90%EC%A0%81%EC%9A%A9.md)
+- [2화. "자료구조, 알고리즘, 프로그래밍 언어" 각각의 관점으로 바라본 알고리즘 문제 - 재귀, 정렬 이분탐색](https://github.com/joychae/TIL/blob/main/210308_210314/0309_%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EA%B0%9C%EB%85%90%EC%A0%81%EC%9A%A9.md)
 
 - [3](https://github.com/joychae/TIL/blob/main/210308_210314/0310_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%ED%92%80%EC%9D%B4%EC%9D%98%EC%9C%A0%EC%82%AC%EC%84%B1.md)
 
