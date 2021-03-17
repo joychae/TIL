@@ -232,6 +232,8 @@ for case in case_list:
 
 \- Dynamic Programming (동적계획법)
 
+---
+
 
 ### **더 공부해야 하는 개념들**
 
