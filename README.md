@@ -7,7 +7,7 @@ Today I Learned (TIL)
 
 알고리즘
 ---
-- [0화](https://github.com/joychae/TIL/blob/main/210301-210317/0305_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%B0%9C%ED%91%9C_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%8B%9C%EC%9E%91.md)
+- [0화. 무작정 알고리즘 문제에 부딪혀보기 - 감상](https://github.com/joychae/TIL/blob/main/210301-210317/0305_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%B0%9C%ED%91%9C_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%8B%9C%EC%9E%91.md)
 
 - [1화. 우리는 왜 알고리즘을 공부하는가? - 자료구조, 알고리즘, 프로그래밍 언어간 관계](https://github.com/joychae/TIL/blob/main/210308_210314/0308_%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EA%B0%9C%EB%85%90.md)
 
@@ -26,10 +26,10 @@ Today I Learned (TIL)
 
 웹개발 미니 프로젝트
 ---
-- [1](https://github.com/joychae/TIL/blob/main/210301-210317/0301_%EC%99%80%EC%9D%B4%EC%96%B4%ED%94%84%EB%A0%88%EC%9E%84_API%EC%84%A4%EA%B3%84.md)  
+- [1화. 개발 프로젝트 사전준비에 필요한 것 - 와이어프레임, API 설계](https://github.com/joychae/TIL/blob/main/210301-210317/0301_%EC%99%80%EC%9D%B4%EC%96%B4%ED%94%84%EB%A0%88%EC%9E%84_API%EC%84%A4%EA%B3%84.md)  
 
-- [2](https://github.com/joychae/TIL/blob/main/210301-210317/0302_VScode_Git.md)
+- [2화. 개발 환경 설정 - VScode, Git](https://github.com/joychae/TIL/blob/main/210301-210317/0302_VScode_Git.md)
 
-- [3](https://github.com/joychae/TIL/blob/main/210301-210317/0303_%ED%8C%80%EC%9E%A5Role_AJAX.md)
+- [3화. 개발 프로젝트에서 팀장의 역할 및 AJAX 활용](https://github.com/joychae/TIL/blob/main/210301-210317/0303_%ED%8C%80%EC%9E%A5Role_AJAX.md)
 
-- [4](https://github.com/joychae/TIL/blob/main/210301-210317/0304_VariousErrors.md)
+- [4화. 초심자가 첫 개발 프로젝트에서 만난 에러들](https://github.com/joychae/TIL/blob/main/210301-210317/0304_VariousErrors.md)
