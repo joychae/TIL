@@ -32,4 +32,4 @@ Today I Learned (TIL)
 
 - [3화. 개발 프로젝트에서 팀장의 역할 및 AJAX 활용](https://github.com/joychae/TIL/blob/main/210301-210317/0303_%ED%8C%80%EC%9E%A5Role_AJAX.md)
 
-- [4화. 초심자가 첫 개발 프로젝트에서 만난 에러들](https://github.com/joychae/TIL/blob/main/210301-210317/0304_VariousErrors.md)
+- [4화. 마치며, 초심자가 첫 개발 프로젝트에서 만난 에러들](https://github.com/joychae/TIL/blob/main/210301-210317/0304_VariousErrors.md)
