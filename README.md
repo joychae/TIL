@@ -23,6 +23,8 @@ Today I Learned (TIL)
 
 - [7화. 알고리즘 심화 개념 - 최적해 알고리즘](https://github.com/joychae/TIL/blob/main/210315-210321/0317_%EC%B5%9C%EC%A0%81%ED%95%B4%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md)
 
+- [8화. 알고리즘 교육을 마치며 - 보완할 점 및 향후 알고리즘 공부 계획](https://github.com/joychae/TIL/blob/main/210315-210321/0318_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98_%EC%95%9E%EC%9C%BC%EB%A1%9C%EC%9D%98%EA%B3%84%ED%9A%8D.md)
+
 
 웹개발 미니 프로젝트
 ---
